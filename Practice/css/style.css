@@ -1,0 +1,32 @@
+body {
+    background: #ffa500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+img {
+    width: 200px;
+    display: block;
+}
+
+p{
+    font-weight: 600;
+    margin-bottom: block;
+}
+
+button {
+    background: #fff;
+    color: #000;
+    margin-top: 10px;
+    border: 1px solid #000;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#error {
+    color: #f00;
+    font-weight: 200;
+}
