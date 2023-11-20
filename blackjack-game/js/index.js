@@ -14,10 +14,12 @@ let cardsEl  = document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
 playerEl.textContent = player.name + ": $" + player.chips
 
+// playerEl.textContent = player.name + ": 5" + player.chips
+
 
 function getRandomCard() {
 
-    let randomnumber =   Math.floor(Math.random()*13) + 1
+    let randomnumber =   Math.floor(Math.random()*20) + 1
     if (randomnumber > 10) {
         return 10
     } else if (randomnumber === 1) {
