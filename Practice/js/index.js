@@ -51,10 +51,7 @@ function add() {
     sumEl.textContent = "Sum: " + result
 }
 
-function substract() {
-    let result = num1 - num2
-    sumEl.textContent = "Sum: " + result
-}
+// localStorage.setItem("mytraining", "htpps://pablofroder.com")
 
 function divide() {
     let result = num1 / num2
